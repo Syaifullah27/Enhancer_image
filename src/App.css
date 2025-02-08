@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+h1{
+  text-align: center;
+  margin:20px 0px;
+}
+
+/* Add this to your CSS file or a <style> tag */
+.dropzone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.preview-container {
+  margin-top: 20px;
+}
+
+.preview-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.loading {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+}
