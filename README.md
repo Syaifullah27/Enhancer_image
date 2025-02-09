@@ -61,13 +61,7 @@ pip install -r requirements.txt
 
 ### 3️⃣ Setup Frontend
 ```bash
-# Kembali ke root folder
-cd ..
-
-# Masuk ke folder frontend
-cd frontend
-
-# Install dependencies
+# Install dependencies di folder src
 npm install
 ```
 
@@ -89,7 +83,6 @@ python esrgan_api.py
 
 ### 2️⃣ Jalankan Frontend (React)
 ```bash
-cd frontend
 npm run dev
 ```
 **Output yang diharapkan:**
@@ -110,9 +103,8 @@ enhance-image/
 │   ├── esrgan_api.py   # API endpoint
 │   └── requirements.txt
 │
-├── frontend/           # Aplikasi React
-│   ├── src/
-│   │   └── components/ # Komponen React
+├── src/                # Aplikasi React (Frontend)
+│   ├── components/     # Komponen React
 │   └── package.json
 │
 ├── .gitignore
